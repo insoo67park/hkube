@@ -36,6 +36,7 @@
    - helm repo update
    - helm search repo stable
 # 3. hkube 설치
+   - alias helm='microk8s heml3'
    - helm repo add hkube http://hkube.io/helm/
    - helm repo update
    - helm install hkube hkube/hkube
