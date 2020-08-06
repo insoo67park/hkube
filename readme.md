@@ -17,7 +17,8 @@
    - microk8s kubectl get nodes, microk8s kubectl get services
    - alias kubectl='micrik8s kubectl' (알리아스 등록)
   ## 에드온 사용
-   - microk8s enable dns storage
+   - microk8s enable dns dashboard storage
+   - microk8s enable kubeflow -> failure can be occured due to disk space shortage
   ## microk8s 시작 및 정지
    - microk8s stop/start
   ## microk8s 설정 방법
